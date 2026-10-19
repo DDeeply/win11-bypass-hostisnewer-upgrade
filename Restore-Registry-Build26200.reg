@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+; Restore original registry edition & build fingerprint
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion]
+"CurrentBuild"="26200"
+"CurrentBuildNumber"="26200"
+"UBR"=dword:0000254e
+"DisplayVersion"="24H2"
+"ProductName"="Windows 10 Pro"
+"EditionID"="Professional"
+"CompositionEditionID"="Enterprise"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion]
+"CurrentBuild"="26200"
+"CurrentBuildNumber"="26200"
+"UBR"=dword:0000254e
+"DisplayVersion"="24H2"
+"ProductName"="Windows 10 Pro"
+"EditionID"="Professional"
+"CompositionEditionID"="Enterprise"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\Installed\Client.OS.rs2.amd64]
+"Version"="10.0.26200.9550"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\Installed\Windows.EmergencyUpdate.amd64]
+"Version"="10.0.26200.9550"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\Installed\Windows.OOBE.amd64]
+"Version"="10.0.26200.9550"

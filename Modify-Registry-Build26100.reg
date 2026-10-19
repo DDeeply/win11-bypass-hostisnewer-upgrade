@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+; Align registry edition & build fingerprint to 24H2 GA (Build 26100)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion]
+"CurrentBuild"="26100"
+"CurrentBuildNumber"="26100"
+"UBR"=dword:00000001
+"DisplayVersion"="24H2"
+"ProductName"="Windows 10 Pro"
+"EditionID"="Professional"
+"CompositionEditionID"="Enterprise"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion]
+"CurrentBuild"="26100"
+"CurrentBuildNumber"="26100"
+"UBR"=dword:00000001
+"DisplayVersion"="24H2"
+"ProductName"="Windows 10 Pro"
+"EditionID"="Professional"
+"CompositionEditionID"="Enterprise"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\Installed\Client.OS.rs2.amd64]
+"Version"="10.0.26100.1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\Installed\Windows.EmergencyUpdate.amd64]
+"Version"="10.0.26100.1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\Installed\Windows.OOBE.amd64]
+"Version"="10.0.26100.1"
